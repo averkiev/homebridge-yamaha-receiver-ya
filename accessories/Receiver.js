@@ -17,6 +17,7 @@ class AUDIO_RECEIVER {
 		this.name = config.name
 		this.serial = this.id
 		this.model = config.model || 'unknown'
+		this.firmware = config.firmware || 'unknown'
 		this.manufacturer = 'Yamaha'
 		this.displayName = this.name
 		this.inputs = config.inputs
@@ -47,6 +48,7 @@ class AUDIO_RECEIVER {
 			.setCharacteristic(Characteristic.Manufacturer, this.manufacturer)
 			.setCharacteristic(Characteristic.Model, this.model)
 			.setCharacteristic(Characteristic.SerialNumber, this.serial)
+			.setCharacteristic(Characteristic.FirmwareRevision, this.firmware)
 
 		
 		this.setServices()

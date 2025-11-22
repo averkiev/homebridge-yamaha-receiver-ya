@@ -1,10 +1,10 @@
 {
-  "name": "homebridge-yamaha-receiver",
-  "description": "Homebridge Plugin for Yamaha Audio Receivers",
-  "version": "0.0.7",
+  "name": "homebridge-yamaha-receiver-ya",
+  "description": "Homebridge Plugin for Yamaha Audio Receivers. Based on the plug-in by nitaybz",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nitaybz/homebridge-yamaha-receiver.git"
+    "url": "git://github.com/averkiev/homebridge-yamaha-receiver-ya.git"
   },
   "license": "MIT",
   "preferGlobal": true,
@@ -15,18 +15,18 @@
     "yamaha"
   ],
   "bugs": {
-    "url": "https://github.com/nitaybz/homebridge-yamaha-receiver/issues"
+    "url": "https://github.com/nitaybz/homebridge-yamaha-receiver-ya/issues"
   },
   "engines": {
-    "node": ">=10.17.0",
-    "homebridge": ">=1.1.6"
+    "node": ">=20.0.0",
+    "homebridge": ">=1.1.6 <3.0.0"
   },
   "dependencies": {
-    "node-persist": "^3.1.0",
+    "node-persist": "^4.0.4",
     "yamaha-nodejs": "^0.9.6"
   },
   "devDependencies": {
-    "eslint": "^8.18.0"
+    "eslint": "^9.39.1"
   },
   "scripts": {
     "lint": "eslint .",
@@ -35,15 +35,7 @@
   "funding": [
     {
       "type": "paypal",
-      "url": "https://paypal.me/nitaybz"
-    },
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/nitaybz"
-    },
-    {
-      "type": "kofi",
-      "url": "https://ko-fi.com/nitaybz"
+      "url": "https://paypal.me/yaverkiev"
     }
   ]
 }

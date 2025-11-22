@@ -3,7 +3,7 @@
   "pluginType": "platform",
   "singular": true,
   "headerDisplay": "**IN DEVELOPMENT** - Homebridge plugin for Yamaha Audio Receivers",
-  "footerDisplay": "Created by @nitaybz",
+  "footerDisplay": "Fork by @averkiev. Created by @nitaybz",
   "schema": {
     "type": "object",
     "properties": {
@@ -38,6 +38,12 @@
               "title": "IP Address (IPv4)",
               "type": "string",
               "required": true
+            },
+            "firmware": {
+              "title": "Firmware Version",
+              "description": "Optional firmware version string shown in HomeKit",
+              "type": "string",
+              "required": false
             },
             "volumeAccessory": {
               "title": "External Volume Accessory",
